@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:padding="25dp"
+    android:background="@drawable/drawable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Score">
+
+    <TextView
+        android:id="@+id/scoretextView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="100dp"
+        android:layout_margin="16dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/feedbacktextView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="150dp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="170dp"
+        android:layout_margin="9dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/reviewbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/orange"
+            android:text="Review"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/exitbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/orange"
+            android:text="Exit"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+</LinearLayout>

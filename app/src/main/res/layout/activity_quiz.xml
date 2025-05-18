@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:padding="25dp"
+    android:background="@drawable/drawable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz">
+
+    <TextView
+        android:id="@+id/questiontextView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:layout_marginBottom="90dp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="150dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/truebutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/orange"
+            android:text="True"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+             />
+
+        <Button
+            android:id="@+id/falsebutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/orange"
+            android:text="False"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+             />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/feedbacktextView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginBottom="70dp"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:textColor="@color/orange"
+        android:text="" />
+
+    <Button
+        android:id="@+id/nextbutton"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/white"
+        android:text="Next" />
+
+
+</LinearLayout>
