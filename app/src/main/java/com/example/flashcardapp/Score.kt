@@ -30,7 +30,7 @@ class Score : AppCompatActivity() {
         val feedback = if (score >= 3){
             "Wow great job!"
         } else{
-            "Oopsie dont worry keep practicing!"
+            "Wehh not bad but keep practicing!"
         }
         feedbacktextView.text = feedback
         //Starting Review Activity

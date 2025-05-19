@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Kincade Garanganga. 2024. “IMAD5112 Practicum Discussion 2024”. YouTube. December 7, 2024 https://www.youtube.com/watch?v=_u8zA1CxxV4 [accessed 18 May 2025].-->
+<!--Kotlin for developers. 2024. “Write Conditionals in Kotlin  |  Android Developers”. Android Developers. 2024 https://developer.android.com/codelabs/basic-android-kotlin-compose-conditionals#0 [accessed 18 May 2025]. -->
+<!-- Anon, (n.d.). Available at: https://pin.it/7vCAJbVwa [Accessed 19 May 2025]. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
