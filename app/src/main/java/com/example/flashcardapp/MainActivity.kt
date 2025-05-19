@@ -17,18 +17,21 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        //Linking UI elements to variables
         val WelcomeMessage = findViewById<TextView>(R.id.WelcomeMessage)
         val plybutton = findViewById<Button>(R.id.plybutton)
         val exitbutton = findViewById<Button>(R.id.exitbutton)
 
+        //Set welcome message
         WelcomeMessage.text = "Lets play History with Mozambique"
 
+        //Go to the quizz activity when play button is clicked
         plybutton.setOnClickListener {
 
             val intent = Intent(this, Quiz::class.java)
             startActivity(intent)
         }
-        exitbutton.setOnClickListener {
+        exitbutton.setOnClickListener {     //Exit the app when exit button is clicked
             finishAffinity()
             exitProcess(0)
         }
